@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_const
+
 import 'package:dino_printing/screens/signin_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -77,22 +79,6 @@ class _ProfileState extends State<UserProfile> {
                   ),
                 ],
               ),
-            ),
-            Container(
-              child: Column(children: const <Widget>[
-                ListTile(
-                  title: Text(
-                    'Email',
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                 
-                ),
-                Divider(),
-              ]),
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
